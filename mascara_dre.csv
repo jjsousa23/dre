@@ -1,0 +1,32 @@
+"id";"id_pai";"mascara";"grupo";"descricao";"ordem";"cor";"subtotal";"detalhar"
+1;;"01";"01 Receita Bruta";"01 Receita Bruta";1;R    ;1;0
+2;1;"01.001";"01 Receita Bruta";"01.001 Receita Operacional com Vendas";2;C    ;0;1
+3;1;"01.002";"01 Receita Bruta";"01.002 Receita Operacional Bonificação de Fornecedor";3;C    ;0;1
+4;;"02";"02 (-) Deduções e abatimentos";"02 (-) Deduções e abatimentos";4;D    ;1;0
+5;4;"02.001";"02 (-) Deduções e abatimentos";"02.001      Devoluções de Vendas";5;D    ;0;1
+7;4;"02.003";"02 (-) Deduções e abatimentos";"02.003      Descontos e Aatimentos";7;D    ;0;1
+8;4;"02.002";"02 (-) Deduções e abatimentos";"02.002      Tributos Sobre as Vendas";8;D    ;0;1
+9;;"03";"03 (=) Receita Líquida de Vendas";"03 (=) Receita Líquida de Vendas";9;R    ;2;0
+11;;"04";"04 (-) CMV (Custo da mercadoria vendida)";"04 (-) CMV (Custo da mercadoria vendida)";11;D    ;0;0
+12;;"05";"05 (=) Lucro Operacional Bruto";"05 (=) Lucro Operacional Bruto";12;R    ;2;0
+13;;"08";"08 (-) Despesas Operacionais";"08 (-) Despesas Operacionais";13;R    ;1;0
+14;13;"08.001";"08 (-) Despesas Operacionais";"08.001      Despesas Operacionais com Vendas";14;D    ;0;1
+15;13;"08.002";"08 (-) Despesas Operacionais";"08.002      Despesas Operacionais - Administrativas";15;D    ;0;1
+16;13;"08.003";"08 (-) Despesas Operacionais";"08.003      Despesas Operacionais - Funcionarios";16;D    ;0;1
+17;13;"08.004";"08 (-) Despesas Operacionais";"08.004      Despesas Operacionais - Tributarias";17;D    ;0;1
+18;13;"08.005";"08 (-) Despesas Operacionais";"08.005      Despesas Operacionais - Perdas e Quebras";18;D    ;0;1
+19;13;"08.006";"08 (-) Despesas Operacionais";"08.006      Despesas Operacionais - Fornecedores de Servicos";19;D    ;0;1
+20;13;"08.007";"08 (-) Despesas Operacionais";"08.007      Despesas Operacionais - Comerciais e Marketing";20;D    ;0;1
+21;13;"08.008";"08 (-) Despesas Operacionais";"08.008      Despesas Operacionais - Frota";21;D    ;0;1
+22;13;"08.009";"08 (-) Despesas Operacionais";"08.009      Despesas Operacionais - Financeiras";22;D    ;0;1
+23;13;"08.010";"08 (-) Despesas Operacionais";"08.010      Despesas Operacionais - Depreciacao";23;D    ;0;1
+24;13;"08.011";"08 (-) Despesas Operacionais";"08.011      Despesas Operacionais - Pro-labore";24;D    ;0;1
+25;;"09";"09 (-) Rateio de Despesas";"09 (-) Rateio de Despesas";25;D    ;0;0
+26;;"10";"10 (=) Lucro ou Prejuizo antes do IRPJ e CSLL";"10 (=) Lucro ou Prejuizo antes do IRPJ e CSLL";26;R    ;2;0
+27;;"11";"11 (-) Impostos Sobre o Lucro";"11 (-) Impostos Sobre o Lucro";27;D    ;1;0
+28;27;"11.001";"11 (-) Impostos Sobre o Lucro";"11.001 IRPJ";28;D    ;3;1
+29;27;"11.002";"11 (-) Impostos Sobre o Lucro";"11.002 CSLL";29;D    ;4;1
+30;;"12";"12 (=) Lucro ou Prejuizo antes das Participacoes";"12 (=) Lucro ou Prejuizo antes das Participacoes";30;R    ;5;0
+31;;"13";"13 (-) Distribuicao, Participacoes e Retiradas";"13 (-) Distribuicao, Participacoes e Retiradas";31;R    ;1;0
+32;31;"13.001";"13 (-) Distribuicao, Participacoes e Retiradas";"13.001      Distribuicao de Lucro";32;D    ;0;1
+33;31;"13.002";"13 (-) Distribuicao, Participacoes e Retiradas";"13.002      Retirada de Capital";33;D    ;0;1
